@@ -57,6 +57,18 @@
         self.photoView.backgroundColor = [UIColor blackColor];
         
         // TODO: Gradient if background not tall enough
+        
+        
+        UIToolbar *(^toolbar)(CGFloat) = ^UIToolbar *(CGFloat alpha) {
+            UIToolbar *toolbar = [[UIToolbar alloc] init];
+            toolbar.barStyle = UIBarStyleBlack;
+            [toolbar sizeToFit];
+            
+            return toolbar;
+        };
+        
+        self.topBar = toolbar(0);
+        self.bottomBar = toolbar(0.7);
     }
     
     return self;
@@ -85,19 +97,11 @@
     self.tableView.delegate = self;
     self.tableView.indicatorStyle = UIScrollViewIndicatorStyleBlack;
     [self.view addSubview:self.tableView];
-    
-    UIToolbar *(^addToolbar)(CGFloat) = ^UIToolbar *(CGFloat alpha) {
-        UIToolbar *toolbar = [[UIToolbar alloc] init];
-        toolbar.barStyle = UIBarStyleBlack;
 
-        [toolbar sizeToFit];
-        [self.view addSubview:toolbar];
-        
-        return toolbar;
-    };
-          
-    self.topBar = addToolbar(0);
-    self.bottomBar = addToolbar(0.7);
+
+    [self.view addSubview:self.topBar];
+    
+    [self.view addSubview:self.bottomBar];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -121,8 +125,6 @@
     CGRect bottomBarFrame = self.bottomBar.bounds;
     bottomBarFrame.origin.y = CGRectGetHeight(self.view.bounds) - CGRectGetHeight(bottomBarFrame);
     self.bottomBar.frame = bottomBarFrame;
-    
-    [self.topBar debug];
 }
 
 #pragma mark - UIScrollViewDelegate
