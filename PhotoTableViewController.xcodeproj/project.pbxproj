@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93649F281773F26A003D0DF5 /* ram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93649F271773F26A003D0DF5 /* ram.jpg */; };
 		936EEBB4177000BF00BAAA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936EEBB3177000BF00BAAA1C /* Foundation.framework */; };
 		936EEBB6177000BF00BAAA1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936EEBB5177000BF00BAAA1C /* CoreGraphics.framework */; };
 		936EEBB8177000BF00BAAA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936EEBB7177000BF00BAAA1C /* UIKit.framework */; };
@@ -19,6 +20,7 @@
 		936EEBCF177000BF00BAAA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936EEBB7177000BF00BAAA1C /* UIKit.framework */; };
 		936EEBD7177000BF00BAAA1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 936EEBD5177000BF00BAAA1C /* InfoPlist.strings */; };
 		936EEBD9177000BF00BAAA1C /* PhotoTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936EEBD8177000BF00BAAA1C /* PhotoTableViewControllerTests.m */; };
+		936EEBE4177000EB00BAAA1C /* BIPhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936EEBE3177000EB00BAAA1C /* BIPhotoTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93649F271773F26A003D0DF5 /* ram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ram.jpg; sourceTree = "<group>"; };
 		936EEBB0177000BF00BAAA1C /* PhotoTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936EEBB3177000BF00BAAA1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		936EEBB5177000BF00BAAA1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +51,8 @@
 		936EEBD4177000BF00BAAA1C /* PhotoTableViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoTableViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		936EEBD6177000BF00BAAA1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		936EEBD8177000BF00BAAA1C /* PhotoTableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTableViewControllerTests.m; sourceTree = "<group>"; };
+		936EEBE2177000EB00BAAA1C /* BIPhotoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPhotoTableViewController.h; sourceTree = "<group>"; };
+		936EEBE3177000EB00BAAA1C /* BIPhotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPhotoTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +114,10 @@
 			children = (
 				936EEBC2177000BF00BAAA1C /* BIAppDelegate.h */,
 				936EEBC3177000BF00BAAA1C /* BIAppDelegate.m */,
+				936EEBE2177000EB00BAAA1C /* BIPhotoTableViewController.h */,
+				936EEBE3177000EB00BAAA1C /* BIPhotoTableViewController.m */,
 				936EEBC5177000BF00BAAA1C /* Images.xcassets */,
+				93649F271773F26A003D0DF5 /* ram.jpg */,
 				936EEBBA177000BF00BAAA1C /* Supporting Files */,
 			);
 			path = PhotoTableViewController;
@@ -222,6 +230,7 @@
 			files = (
 				936EEBBE177000BF00BAAA1C /* InfoPlist.strings in Resources */,
 				936EEBC6177000BF00BAAA1C /* Images.xcassets in Resources */,
+				93649F281773F26A003D0DF5 /* ram.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				936EEBC0177000BF00BAAA1C /* main.m in Sources */,
+				936EEBE4177000EB00BAAA1C /* BIPhotoTableViewController.m in Sources */,
 				936EEBC4177000BF00BAAA1C /* BIAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +371,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoTableViewController/PhotoTableViewController-Prefix.pch";
 				INFOPLIST_FILE = "PhotoTableViewController/PhotoTableViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoTableViewController/PhotoTableViewController-Prefix.pch";
 				INFOPLIST_FILE = "PhotoTableViewController/PhotoTableViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +450,7 @@
 				936EEBDE177000BF00BAAA1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		936EEBDF177000BF00BAAA1C /* Build configuration list for PBXNativeTarget "PhotoTableViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +459,7 @@
 				936EEBE1177000BF00BAAA1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
