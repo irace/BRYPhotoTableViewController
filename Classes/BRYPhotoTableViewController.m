@@ -79,7 +79,6 @@
     self.tableView.contentInset = insets;
     self.tableView.scrollIndicatorInsets = insets;
     
-    // TODO: Can throw this up too high
     self.tableBackgroundView.frame = CGRectMake(0, insets.top, CGRectGetWidth(bounds), self.tableHeight);
     
     CGRect bottomBarFrame = self.bottomBar.bounds;
