@@ -1,0 +1,14 @@
+PODS:
+  - BRYPhotoTableViewController (1.0.0)
+
+DEPENDENCIES:
+  - BRYPhotoTableViewController (from `..`)
+
+EXTERNAL SOURCES:
+  BRYPhotoTableViewController:
+    :path: ..
+
+SPEC CHECKSUMS:
+  BRYPhotoTableViewController: 1fcc75c9b85c32a406cd3ed7dd00782bc87c9299
+
+COCOAPODS: 0.28.0

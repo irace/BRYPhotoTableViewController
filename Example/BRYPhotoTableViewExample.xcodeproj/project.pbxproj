@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59C3234D512A4730BE91B6BA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 634B0C955BB24A82A007613E /* libPods.a */; };
+		93722F191867E6FB0084C241 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93722F181867E6FB0084C241 /* Foundation.framework */; };
+		93722F1B1867E6FB0084C241 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93722F1A1867E6FB0084C241 /* CoreGraphics.framework */; };
+		93722F1D1867E6FB0084C241 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93722F1C1867E6FB0084C241 /* UIKit.framework */; };
+		93722F231867E6FB0084C241 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93722F211867E6FB0084C241 /* InfoPlist.strings */; };
+		93722F251867E6FB0084C241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93722F241867E6FB0084C241 /* main.m */; };
+		93722F291867E6FB0084C241 /* BRYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93722F281867E6FB0084C241 /* BRYAppDelegate.m */; };
+		93722F2B1867E6FB0084C241 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93722F2A1867E6FB0084C241 /* Images.xcassets */; };
+		93722F491867E7CA0084C241 /* BRYExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93722F481867E7CA0084C241 /* BRYExampleViewController.m */; };
+		93722F4B1867E9230084C241 /* ram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93722F4A1867E9230084C241 /* ram.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		634B0C955BB24A82A007613E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93722F151867E6FB0084C241 /* BRYPhotoTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRYPhotoTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93722F181867E6FB0084C241 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93722F1A1867E6FB0084C241 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93722F1C1867E6FB0084C241 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93722F201867E6FB0084C241 /* BRYPhotoTableViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BRYPhotoTableViewExample-Info.plist"; sourceTree = "<group>"; };
+		93722F221867E6FB0084C241 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93722F241867E6FB0084C241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93722F261867E6FB0084C241 /* BRYPhotoTableViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRYPhotoTableViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		93722F271867E6FB0084C241 /* BRYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRYAppDelegate.h; sourceTree = "<group>"; };
+		93722F281867E6FB0084C241 /* BRYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRYAppDelegate.m; sourceTree = "<group>"; };
+		93722F2A1867E6FB0084C241 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93722F311867E6FB0084C241 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93722F471867E7CA0084C241 /* BRYExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRYExampleViewController.h; sourceTree = "<group>"; };
+		93722F481867E7CA0084C241 /* BRYExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRYExampleViewController.m; sourceTree = "<group>"; };
+		93722F4A1867E9230084C241 /* ram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ram.jpg; sourceTree = "<group>"; };
+		B57C05C6D9F94B64933EEAAB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93722F121867E6FB0084C241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93722F1B1867E6FB0084C241 /* CoreGraphics.framework in Frameworks */,
+				93722F1D1867E6FB0084C241 /* UIKit.framework in Frameworks */,
+				93722F191867E6FB0084C241 /* Foundation.framework in Frameworks */,
+				59C3234D512A4730BE91B6BA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93722F0C1867E6FB0084C241 = {
+			isa = PBXGroup;
+			children = (
+				93722F1E1867E6FB0084C241 /* BRYPhotoTableViewExample */,
+				93722F171867E6FB0084C241 /* Frameworks */,
+				93722F161867E6FB0084C241 /* Products */,
+				B57C05C6D9F94B64933EEAAB /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		93722F161867E6FB0084C241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93722F151867E6FB0084C241 /* BRYPhotoTableViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93722F171867E6FB0084C241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93722F181867E6FB0084C241 /* Foundation.framework */,
+				93722F1A1867E6FB0084C241 /* CoreGraphics.framework */,
+				93722F1C1867E6FB0084C241 /* UIKit.framework */,
+				93722F311867E6FB0084C241 /* XCTest.framework */,
+				634B0C955BB24A82A007613E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93722F1E1867E6FB0084C241 /* BRYPhotoTableViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				93722F271867E6FB0084C241 /* BRYAppDelegate.h */,
+				93722F281867E6FB0084C241 /* BRYAppDelegate.m */,
+				93722F471867E7CA0084C241 /* BRYExampleViewController.h */,
+				93722F481867E7CA0084C241 /* BRYExampleViewController.m */,
+				93722F2A1867E6FB0084C241 /* Images.xcassets */,
+				93722F1F1867E6FB0084C241 /* Supporting Files */,
+			);
+			path = BRYPhotoTableViewExample;
+			sourceTree = "<group>";
+		};
+		93722F1F1867E6FB0084C241 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93722F4A1867E9230084C241 /* ram.jpg */,
+				93722F201867E6FB0084C241 /* BRYPhotoTableViewExample-Info.plist */,
+				93722F211867E6FB0084C241 /* InfoPlist.strings */,
+				93722F241867E6FB0084C241 /* main.m */,
+				93722F261867E6FB0084C241 /* BRYPhotoTableViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93722F141867E6FB0084C241 /* BRYPhotoTableViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93722F411867E6FB0084C241 /* Build configuration list for PBXNativeTarget "BRYPhotoTableViewExample" */;
+			buildPhases = (
+				7B5B817DF36447AFA6A881A8 /* Check Pods Manifest.lock */,
+				93722F111867E6FB0084C241 /* Sources */,
+				93722F121867E6FB0084C241 /* Frameworks */,
+				93722F131867E6FB0084C241 /* Resources */,
+				0BAC8CF36A5D42AFBBDE82CA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRYPhotoTableViewExample;
+			productName = BRYPhotoTableViewExample;
+			productReference = 93722F151867E6FB0084C241 /* BRYPhotoTableViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93722F0D1867E6FB0084C241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BRY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bryan Irace";
+			};
+			buildConfigurationList = 93722F101867E6FB0084C241 /* Build configuration list for PBXProject "BRYPhotoTableViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93722F0C1867E6FB0084C241;
+			productRefGroup = 93722F161867E6FB0084C241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93722F141867E6FB0084C241 /* BRYPhotoTableViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93722F131867E6FB0084C241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93722F4B1867E9230084C241 /* ram.jpg in Resources */,
+				93722F231867E6FB0084C241 /* InfoPlist.strings in Resources */,
+				93722F2B1867E6FB0084C241 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BAC8CF36A5D42AFBBDE82CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5B817DF36447AFA6A881A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93722F111867E6FB0084C241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93722F291867E6FB0084C241 /* BRYAppDelegate.m in Sources */,
+				93722F251867E6FB0084C241 /* main.m in Sources */,
+				93722F491867E7CA0084C241 /* BRYExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93722F211867E6FB0084C241 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93722F221867E6FB0084C241 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93722F3F1867E6FB0084C241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93722F401867E6FB0084C241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93722F421867E6FB0084C241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57C05C6D9F94B64933EEAAB /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRYPhotoTableViewExample/BRYPhotoTableViewExample-Prefix.pch";
+				INFOPLIST_FILE = "BRYPhotoTableViewExample/BRYPhotoTableViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93722F431867E6FB0084C241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57C05C6D9F94B64933EEAAB /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRYPhotoTableViewExample/BRYPhotoTableViewExample-Prefix.pch";
+				INFOPLIST_FILE = "BRYPhotoTableViewExample/BRYPhotoTableViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93722F101867E6FB0084C241 /* Build configuration list for PBXProject "BRYPhotoTableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93722F3F1867E6FB0084C241 /* Debug */,
+				93722F401867E6FB0084C241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93722F411867E6FB0084C241 /* Build configuration list for PBXNativeTarget "BRYPhotoTableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93722F421867E6FB0084C241 /* Debug */,
+				93722F431867E6FB0084C241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93722F0D1867E6FB0084C241 /* Project object */;
+}
